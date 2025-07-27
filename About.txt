@@ -1,0 +1,31 @@
+# About
+
+NAME: Ritchey Markup To Page Based HTML For Printing
+IMPLEMENTATION: 1
+VERSION: 1
+LONG IDENTIFIER: Ritchey Markup To Page Based HTML For Printing i1 v1
+SHORT IDENTIFIER: RMTPBHFPi1v1
+AUTHOR: James Daniel Marrs Ritchey
+
+## Overview
+
+Ritchey Markup To Page Based HTML For Printing is a user-defined PHP function, which takes a plain-text file, that is marked with a markup language (the language supported is specific to this tool), and converts it to an HTML file, that is built with printing to paper, or PDF in mind. The idea is that the plain-text is readable as is, but provides enough information for beautified documents to be made from it when converted. The HTML document is not meant for use as a website.
+
+## Licensing
+
+This project is hereby licensed under the Ritchey Permissive License v19.
+
+## History
+
+Releases:
+- Project started March, 2025.
+- v1 completed July 27, 2025.
+
+Highlighted Changes:
+- 
+
+## Notes
+
+- Injecting HTML into the plain-text document may work in some instances, but isn't supported, and could have unexpected results, such as breaking detection of other elements.
+- Content that doesn't fit on a page is cut-off, which means page breaks need to be manually inserted into a document, based on the final-document dimensions.
+- Older versions of themes may still be included, but aren't necessarily still compatible. The most recent version of any themes are.
